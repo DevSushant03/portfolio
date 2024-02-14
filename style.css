@@ -83,6 +83,28 @@ b{
 .bg{
   width:100%
 }
+.outer-div {
+        height:200px;
+        width: 350px;
+        overflow-x: auto;
+        white-space: nowrap;
+        margin:10px
+        
+    }
+.inner-div {
+        display: inline-block;
+        width: 180px;
+        height:180px;
+        background-color: #262626;
+        margin-left:20px;
+      margin-top:10px;
+      border-radius:10px;
+      filter: drop-shadow(0px 0px 10px #ff5900);
+      background-image:url("meme.jpg");
+      background-size:cover;
+      
+    }
+
    .contact {
         color: white;
         font-family: 'Poppins', sans-serif;
