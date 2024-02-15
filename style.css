@@ -50,16 +50,11 @@ button{
   border:none;
   font-family: 'Poppins', sans-serif;
 }
-.about,.skill,.project{
+.about,.skill,.project,.contact{
   color:white;
   background-color:#020D19;
   padding:10px;
   margin-bottom:5px
-}
-.contact{
-  background-color:#0C0C0C;
-  color: white;
-  padding:10px
 }
 
 .checked {
