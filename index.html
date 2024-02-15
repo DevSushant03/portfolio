@@ -7,7 +7,8 @@
   <title>Portfolio</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
 
   <style>
      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -20,7 +21,7 @@
   
 <!--Navigation bar-->
   <nav>
-<ul>
+<ul data-aos="fade-down">
   <li><a href="#S1">About</a></li>
   <li><a href="#S2">Skill</a></li>
  <li><a href="#S3">Contact</a></li> 
@@ -31,14 +32,14 @@
   <!--About-->
   <div id="S1" class="about">
      <h2>I'm</h2>
-    <h1>Sushant</h1>
-    <p>
+    <h1 data-aos="fade-right">Sushant</h1>
+    <p data-aos="fade-right">
        I am currently a student at <b>Mumbai University</b><br/> Studing  <b>Bsc-IT</b> learning various <br /> programming language along with <br /> <b>Web Development</b>
     </p>
     
     <img class="template" src="./template.png" />
-    <h1 id="S2">What I Can do <br/> for you</h1>
-    <p>I can help you to make a responsive and <br /> attractive website for your <br /> business at low cost with <br /> 6 MONTHS FREE HOSTING. </p>
+    <h1 data-aos="fade-right" id="S2">What I Can do <br/> for you</h1>
+    <p data-aos="fade-right" >I can help you to make a responsive and <br /> attractive website for your <br /> business at low cost with <br /> 6 MONTHS FREE HOSTING. </p>
     <button><a href="#S3">Hire me</a></button>
     
   </div>
@@ -46,8 +47,8 @@
 <!--Skill-->
 
   <div class="skill">
-     <h1>Skill</h1>
-    <p>
+     <h1 data-aos="fade-right" >Skill</h1>
+    <p data-aos="fade-right" >
        I have a good knowledge of <b>HTML and CSS </b> <br /> & Programming language like <b> C, C++, Python </b><br/> and database like <b>MySQL</b> <br /> I am also good at designing and <br /> Creating responsive and attractive <br /> websites.
     </p>
 <span class="fa fa-star checked"></span>
@@ -87,7 +88,7 @@
 
  <!--Project-->
  <div class="project">
-   <h1>
+   <h1 data-aos="fade-right" >
       Project
    </h1>
    <div class="outer-div">
@@ -103,7 +104,7 @@
   
     <div id="S3" class="contact">
       
-      <h1>
+      <h1 data-aos="fade-right" >
         Contact
       </h1>
       <hr />
@@ -132,5 +133,10 @@
 
   
 </body>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1100
+  });
+         </script>
 </html>
