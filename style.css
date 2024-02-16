@@ -93,19 +93,44 @@ b{
         margin:10px
         
     }
-.inner-div {
+.card{
         display: inline-block;
         width: 180px;
         height:180px;
         background-color: #262626;
         margin-left:20px;
-      margin-top:10px;
-      border-radius:10px;
-      filter: drop-shadow(0px 0px 10px #ff5900);
-  
-      
+        border-radius:10px;
+        font-family: 'Poppins', sans-serif;      
     }
-
+#C1{
+  background-image:url('netflix.jpeg');
+  background-size:cover
+  
+}
+#C2{
+  background-image:url("maharaj.jpeg");
+  background-size:cover;
+}
+#C3{
+  background-image:url("coming.jpg");
+  background-size:cover;
+}
+h5{
+  position:relative;
+  top:120px;
+  backdrop-filter:blur(10px);
+  border-radius:5px;
+  padding:5px;
+  
+}
+.links{
+  position:relative;
+  bottom: 70px;left:5px;
+  background-color:black;
+  padding:5px;
+  border-radius:5px;
+  font-size:10px 
+  }
    .contact {
         color: white;
         font-family: 'Poppins', sans-serif;
