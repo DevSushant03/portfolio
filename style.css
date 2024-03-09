@@ -9,16 +9,16 @@ body{
   padding:0px
 }
 :root{
-  --primary-color:rgb(255, 255, 255);
-  --secondary-color:#fffaeb;
-  --third-color:#fce59f;
-  --fourth-color:black;
-}
-.dark-mode{
   --primary-color:rgb(43, 43, 43);
   --secondary-color:#020d19;
   --third-color:#0c0c0c;
   --fourth-color:white;
+}
+.dark-mode{
+  --primary-color:rgb(255, 255, 255);
+  --secondary-color:#fffaeb;
+  --third-color:#fce59f;
+  --fourth-color:black;
 }
 .logo{
   width:40px;
