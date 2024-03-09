@@ -4,16 +4,28 @@ html {
 }
 
 body{
-  background-color:rgb(43, 43, 43);
+  background-color:var(--primary-color);
   margin:0px;
   padding:0px
+}
+:root{
+  --primary-color:rgb(255, 255, 255);
+  --secondary-color:#fffaeb;
+  --third-color:#fce59f;
+  --fourth-color:black;
+}
+.dark-mode{
+  --primary-color:rgb(43, 43, 43);
+  --secondary-color:#020d19;
+  --third-color:#0c0c0c;
+  --fourth-color:white;
 }
 .logo{
   width:40px;
   position:fixed;top:10px;left:10px
   }
 nav{
-  background-color:#0C0C0C;
+  background-color:var(--third-color);
   margin:0px;
   text-align: right;
   filter:drop-shadow(0px 0px 5px #ff5900);
@@ -26,12 +38,12 @@ li{
   display:inline;
   font-family: 'Poppins', sans-serif;
   margin-right:15px;
-  background-color:#1c1c1c;
+ background-color:var(--primary-color);
   border-radius:5px;
   padding:5px
 }
 a{
-  color:white;
+   color:var(--fourth-color);
   text-decoration:none
 }
 
@@ -43,18 +55,23 @@ a{
   width:150px;
 }
 button{
-  color:white;
+  color:var(--fourth-color);
   background-color:#00b012;
   padding:5px;
   border-radius:10px;
   border:none;
   font-family: 'Poppins', sans-serif;
 }
-.about,.skill,.project,.contact{
-  color:white;
-  background-color:#020D19;
+.about,.skill,.project{
+  color:var(--fourth-color);
+  background-color:var(--secondary-color);
   padding:10px;
   margin-bottom:5px
+}
+.contact {
+  background-color:var(--third-color);
+  color: var(--fourth-color);
+  padding:10px
 }
 
 .checked {
@@ -69,13 +86,13 @@ h1{
 }
 h2{
   font-family: 'Poppins', sans-serif;
-  color:white;
+ color:var(--fourth-color);
   font-size:40px;
  margin-bottom:5px;
   margin-left:5px
 }
 p{
-  color:white;
+  color:var(--fourth-color);
   font-family:'Poppins', sans-serif;
 }
 b{
@@ -118,6 +135,7 @@ b{
 h5{
   position:relative;
   top:120px;
+   color:var(--secondary-color);
   backdrop-filter:blur(10px);
   border-radius:5px;
   padding:5px;
@@ -126,7 +144,8 @@ h5{
 .links{
   position:relative;
   bottom: 70px;left:5px;
-  background-color:black;
+background-color:var(--fourth-color);
+  color:var(--primary-color);
   padding:5px;
   border-radius:5px;
   font-size:10px 
@@ -135,6 +154,8 @@ h5{
         color: white;
         font-family: 'Poppins', sans-serif;
         padding: 15px;
+      background-color:var(--third-color);
+  color: var(--fourth-color);
       }
 
 input {
