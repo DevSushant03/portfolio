@@ -272,5 +272,18 @@ i img{
   .card {
      display:inline;
   }
+  .contact{
+    flex-direction:row;
+    justify-content: space-evenly;
+    background-image: url('con-bg-desk.jpg');
+  }
+  .form{
+    width:500px;
+    margin: 60px;
+    box-shadow: 2px 2px 20px red;
+  }
+ .detail{
+   flex-direction:column;
+ }
 }
 
