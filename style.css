@@ -24,23 +24,27 @@ body{
   width:40px;
   position:fixed;top:10px;left:10px
   }
-nav{
-  background-color:var(--third-color);
-  margin:0px;
-  text-align: right;
-  filter:drop-shadow(0px 0px 5px #ff5900);
+nav {
+  background-color: var(--third-color);
+  margin: 0px;
+  display:flex;
+  justify-content:right;
+  filter: drop-shadow(0px 0px 5px #ff5900);
   overflow: hidden;
-  position:fixed;top:0px;
-  width:100%;
-  z-index:1
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1
 }
-li{
-  display:inline;
+
+li {
+  display: inline;
   font-family: 'Poppins', sans-serif;
-  margin-right:15px;
- background-color:var(--primary-color);
-  border-radius:5px;
-  padding:5px
+  padding: 15px
+}
+li:hover{
+  background-color:orange;
+  color: black 
 }
 a{
    color:var(--fourth-color);
