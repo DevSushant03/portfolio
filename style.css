@@ -15,10 +15,10 @@ body{
   --fourth-color:white;
 }
 .dark-mode{
-  --primary-color:rgb(255, 255, 255);
-  --secondary-color:#fffaeb;
-  --third-color:#fce59f;
-  --fourth-color:black;
+   --primary-color: rgb(255, 255, 255);
+  --secondary-color: #fbfbfb;
+  --third-color: #f0f8ff;
+  --fourth-color: black;
 }
 .logo{
   width:40px;
@@ -68,14 +68,65 @@ button{
   padding:10px;
   margin-bottom:5px
 }
-.contact {
-  background-color:var(--third-color);
-  color: var(--fourth-color);
-  padding:10px
-}
 
-.checked {
-  color: yellow;
+.contact {
+  padding: 10px;
+  display:flex;
+  flex-direction:column;
+  font-family: 'Poppins', sans-serif;
+  background-image:url('con-bg.jpg');
+  background-size:cover;
+}
+.detail{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  color: white;
+  
+}
+.detail span{
+  margin:10px;
+}
+span a{
+  margin:10px;
+}
+span i{
+  margin:10px
+}
+.form{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:var(--third-color);
+  color:var(--fourth-color);
+  height:100%;width:100%;
+  
+}
+input{
+  background-color: transparent;
+  border:none;
+  border-bottom:2px solid var(--fourth-color);
+  padding:15px;
+  font-size:20px;
+  margin:10px;
+  width:250px;
+  color:var(--fourth-color);
+}
+textarea{
+  background-color: transparent;
+  border:2px solid var(--fourth-color);
+  padding:15px;
+  font-size:20px;
+  margin:10px;
+  width:250px;
+  color:var(--fourth-color);
+  resize: none;
+  font-family: 'Poppins', sans-serif;
+}
+input:focus{
+  outline:none;
 }
 h1{
   font-family: 'IBM Plex Sans', sans-serif;
@@ -150,45 +201,7 @@ background-color:var(--fourth-color);
   border-radius:5px;
   font-size:10px 
   }
-   .contact {
-        color: white;
-        font-family: 'Poppins', sans-serif;
-        padding: 15px;
-      background-color:var(--third-color);
-  color: var(--fourth-color);
-      }
-
-input {
-  border:none;
-  border-bottom: 2px solid white;
-  background-color: transparent;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-size:20px;
-  max-width: 290px;
-        max-height: 100px;
-      }
-
-      textArea {
-        font-size:15px;
-        border: 2px solid white;
-        background-color: transparent;
-        color:white;
-        font-family: 'Poppins', sans-serif;
-        max-width: 290px;
-        max-height: 100px;
-        min-width: 290px;
-        min-height: 100px;
-        border-radius: 5px;
-        margin-top:20px
-      }
-.submit{
-  margin-right:150px
-}
-      .submit.reset:hover {
-        background-color: white;
-        color: black
-      }
+   
 .png{
   width:20px;
   margin-top:20px
