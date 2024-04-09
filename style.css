@@ -149,8 +149,17 @@ b {
 }
 
 #C3 {
-  background-image: url("coming.jpg");
+  background-image: url("ecommerce.jpg");
   background-size: cover;
+}
+#C4 {
+  background-image: url("loginpage.jpg");
+  background-size: cover;
+}
+#C5 {
+  background-image: url("debitcard.jpg");
+  background-size: cover;
+  background-position:center
 }
 
 h5 {
