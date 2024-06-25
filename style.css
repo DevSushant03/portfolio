@@ -139,10 +139,13 @@ b {
 }
 
 #C1 {
-  background-image: url('miniproject.jpg');
+  background-image: url('mini-project.jpg');
   background-size: cover
 }
-
+#C6 {
+  background-image: url('weather-web.jpg');
+  background-size: cover
+}
 #C2 {
   background-image: url("calculator.jpg");
   background-size: cover;
